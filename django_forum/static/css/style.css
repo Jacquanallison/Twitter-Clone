@@ -1,0 +1,149 @@
+/*
+Common
+******************/
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 600px;
+   
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*
+Post
+******************/
+
+.post_form {
+    padding: 20px 17px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_form .input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0px;
+    background-color: #e6fef7;
+}
+
+input.file {
+    border: 1px solid #ccc;
+    padding: 6px;
+    width: 70%;
+}
+
+.post_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+}
+
+ .logo {
+    flex-basis: 15%;
+}
+
+ .logo img {
+    width: 60px;
+
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 40px;
+    }
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+  }
+
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+    list-style: none;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.like img {
+    width: 20px;
+}
+.like a {
+    text-decoration: none;
+}
+form {
+    display: flex;
+}
+
+.int button {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    padding: 9px;
+    border-radius: 10px;
+    width:72px;
+}
+.A img {
+    width: 70px;
+}
+.A{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc ;
+}
+
+.int a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    padding: 9px;
+    border-radius: 10px;
+}
